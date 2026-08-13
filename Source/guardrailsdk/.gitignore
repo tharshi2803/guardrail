@@ -1,0 +1,67 @@
+# === Python & Runtime ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === Environments & Secrets ===
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === Testing & Coverage ===
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.stats
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# === Databases (If applicable) ===
+*.db
+*.sqlite3
+
+# === IDEs & Editors ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# === Operating System ===
+.DS_Store
+Thumbs.db
+chroma_db/*
+!chroma_db/.gitkeep
+
